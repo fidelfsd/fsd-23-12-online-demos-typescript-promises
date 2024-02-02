@@ -1,0 +1,16 @@
+// 1. Inicializar el proyecto con el package.json
+npm init -y
+
+// 2. Instalar typescript
+npm i typescript 
+
+// 3. Generar tsconfig.json
+npx tsc --init
+
+// 4. Instalar ts-node (Ejecutar archivos .ts)
+npm i ts-node
+
+// Modulos opcionales
+
+// 5. Instalar axios (Peticiones http) 
+npm i axios
